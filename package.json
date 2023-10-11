@@ -1,0 +1,14 @@
+{
+  "name": "clera-moment",
+  "version": "1.1.0",
+  "description": "'clera' moments when you meant to 'clear'",
+  "main": "index.js",
+  "bin": {
+    "clera": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
