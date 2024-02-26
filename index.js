@@ -1,11 +1,9 @@
 #!/usr/bin/env node
-const os = require('os');
-const { execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 
 function clearTerminal() {
-    const isWindows = os.platform() === 'win32';
-    const command = isWindows ? 'cls' : 'clear';
-    execSync(command, { stdio: 'inherit' });
+    const command = process.platform === 'win32' ? 'cls' : 'clear';
+    spawnSync(command, { stdio: 'inherit' });
 }
 
 clearTerminal();
