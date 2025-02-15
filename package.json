@@ -1,7 +1,7 @@
 {
   "name": "clera-moment",
-  "version": "1.1.0",
-  "description": "'clera' moments when you meant to 'clear'",
+  "version": "1.1.2",
+  "description": "'clera' moment when you meant to 'clear'",
   "main": "index.js",
   "bin": {
     "clera": "index.js"
